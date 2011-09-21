@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		72C65873142A80F10042A025 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C65872142A80F10042A025 /* Cocoa.framework */; };
 		72C6587D142A80F10042A025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C6587B142A80F10042A025 /* InfoPlist.strings */; };
-		72C65881142A80F10042A025 /* EPLAppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C65880142A80F10042A025 /* EPLAppKit.m */; };
+		72C65889142A81790042A025 /* EPLAKViewToolbarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C6588A142A81790042A025 /* EPLAKViewToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C65888142A81790042A025 /* EPLAKViewToolbarItem.m */; };
+		72C6588B142A81860042A025 /* EPLAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C6587F142A80F10042A025 /* EPLAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,11 +20,12 @@
 		72C65875142A80F10042A025 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		72C65876142A80F10042A025 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		72C65877142A80F10042A025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		72C6587A142A80F10042A025 /* EPLAppKit-Info.plist */ = {isa = PBXFileReference; path = "EPLAppKit-Info.plist"; sourceTree = "<group>"; };
+		72C6587A142A80F10042A025 /* EPLAppKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPLAppKit-Info.plist"; sourceTree = "<group>"; };
 		72C6587C142A80F10042A025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		72C6587E142A80F10042A025 /* EPLAppKit-Prefix.pch */ = {isa = PBXFileReference; path = "EPLAppKit-Prefix.pch"; sourceTree = "<group>"; };
-		72C6587F142A80F10042A025 /* EPLAppKit.h */ = {isa = PBXFileReference; path = EPLAppKit.h; sourceTree = "<group>"; };
-		72C65880142A80F10042A025 /* EPLAppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLAppKit.m; sourceTree = "<group>"; };
+		72C6587E142A80F10042A025 /* EPLAppKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPLAppKit-Prefix.pch"; sourceTree = "<group>"; };
+		72C6587F142A80F10042A025 /* EPLAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLAppKit.h; sourceTree = "<group>"; };
+		72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLAKViewToolbarItem.h; sourceTree = "<group>"; };
+		72C65888142A81790042A025 /* EPLAKViewToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKViewToolbarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				72C6587F142A80F10042A025 /* EPLAppKit.h */,
-				72C65880142A80F10042A025 /* EPLAppKit.m */,
+				72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */,
+				72C65888142A81790042A025 /* EPLAKViewToolbarItem.m */,
 				72C65879142A80F10042A025 /* Supporting Files */,
 			);
 			path = EPLAppKit;
@@ -100,6 +104,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C65889142A81790042A025 /* EPLAKViewToolbarItem.h in Headers */,
+				72C6588B142A81860042A025 /* EPLAppKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C65881142A80F10042A025 /* EPLAppKit.m in Sources */,
+				72C6588A142A81790042A025 /* EPLAKViewToolbarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

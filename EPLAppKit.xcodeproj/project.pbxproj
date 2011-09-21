@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72C65873142A80F10042A025 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C65872142A80F10042A025 /* Cocoa.framework */; };
+		72C6587D142A80F10042A025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C6587B142A80F10042A025 /* InfoPlist.strings */; };
+		72C65881142A80F10042A025 /* EPLAppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C65880142A80F10042A025 /* EPLAppKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72C6586F142A80F10042A025 /* EPLAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPLAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C65872142A80F10042A025 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		72C65875142A80F10042A025 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		72C65876142A80F10042A025 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		72C65877142A80F10042A025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72C6587A142A80F10042A025 /* EPLAppKit-Info.plist */ = {isa = PBXFileReference; path = "EPLAppKit-Info.plist"; sourceTree = "<group>"; };
+		72C6587C142A80F10042A025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72C6587E142A80F10042A025 /* EPLAppKit-Prefix.pch */ = {isa = PBXFileReference; path = "EPLAppKit-Prefix.pch"; sourceTree = "<group>"; };
+		72C6587F142A80F10042A025 /* EPLAppKit.h */ = {isa = PBXFileReference; path = EPLAppKit.h; sourceTree = "<group>"; };
+		72C65880142A80F10042A025 /* EPLAppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLAppKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72C6586B142A80F10042A025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C65873142A80F10042A025 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C65863142A80F00042A025 = {
+			isa = PBXGroup;
+			children = (
+				72C65878142A80F10042A025 /* EPLAppKit */,
+				72C65871142A80F10042A025 /* Frameworks */,
+				72C65870142A80F10042A025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72C65870142A80F10042A025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C6586F142A80F10042A025 /* EPLAppKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C65871142A80F10042A025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72C65872142A80F10042A025 /* Cocoa.framework */,
+				72C65874142A80F10042A025 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72C65874142A80F10042A025 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72C65875142A80F10042A025 /* AppKit.framework */,
+				72C65876142A80F10042A025 /* CoreData.framework */,
+				72C65877142A80F10042A025 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		72C65878142A80F10042A025 /* EPLAppKit */ = {
+			isa = PBXGroup;
+			children = (
+				72C6587F142A80F10042A025 /* EPLAppKit.h */,
+				72C65880142A80F10042A025 /* EPLAppKit.m */,
+				72C65879142A80F10042A025 /* Supporting Files */,
+			);
+			path = EPLAppKit;
+			sourceTree = "<group>";
+		};
+		72C65879142A80F10042A025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C6587A142A80F10042A025 /* EPLAppKit-Info.plist */,
+				72C6587B142A80F10042A025 /* InfoPlist.strings */,
+				72C6587E142A80F10042A025 /* EPLAppKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72C6586C142A80F10042A025 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		72C6586E142A80F10042A025 /* EPLAppKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C65884142A80F10042A025 /* Build configuration list for PBXNativeTarget "EPLAppKit" */;
+			buildPhases = (
+				72C6586A142A80F10042A025 /* Sources */,
+				72C6586B142A80F10042A025 /* Frameworks */,
+				72C6586C142A80F10042A025 /* Headers */,
+				72C6586D142A80F10042A025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPLAppKit;
+			productName = EPLAppKit;
+			productReference = 72C6586F142A80F10042A025 /* EPLAppKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72C65865142A80F00042A025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 72C65868142A80F00042A025 /* Build configuration list for PBXProject "EPLAppKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72C65863142A80F00042A025;
+			productRefGroup = 72C65870142A80F10042A025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72C6586E142A80F10042A025 /* EPLAppKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72C6586D142A80F10042A025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C6587D142A80F10042A025 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C6586A142A80F10042A025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C65881142A80F10042A025 /* EPLAppKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72C6587B142A80F10042A025 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C6587C142A80F10042A025 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72C65882142A80F10042A025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		72C65883142A80F10042A025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		72C65885142A80F10042A025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPLAppKit/EPLAppKit-Prefix.pch";
+				INFOPLIST_FILE = "EPLAppKit/EPLAppKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		72C65886142A80F10042A025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPLAppKit/EPLAppKit-Prefix.pch";
+				INFOPLIST_FILE = "EPLAppKit/EPLAppKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72C65868142A80F00042A025 /* Build configuration list for PBXProject "EPLAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C65882142A80F10042A025 /* Debug */,
+				72C65883142A80F10042A025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C65884142A80F10042A025 /* Build configuration list for PBXNativeTarget "EPLAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C65885142A80F10042A025 /* Debug */,
+				72C65886142A80F10042A025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72C65865142A80F00042A025 /* Project object */;
+}

@@ -7,3 +7,4 @@
 //
 
 #import "EPLAKViewToolbarItem.h"
+#import "NSColor+EPLAppKit.h"

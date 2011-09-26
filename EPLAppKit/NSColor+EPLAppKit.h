@@ -10,7 +10,9 @@
 
 @interface NSColor (EPLAppKit)
 
++ (NSColor *)colorWithRGBHex:(UInt32)hex alpha:(CGFloat)alpha;
 + (NSColor *)colorWithRGBHex:(UInt32)hex;
++ (NSColor *)colorWithHexString:(NSString *)stringToConvert alpha:(CGFloat)alpha;
 + (NSColor *)colorWithHexString:(NSString *)stringToConvert;
 
 @end

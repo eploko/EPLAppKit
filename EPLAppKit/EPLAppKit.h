@@ -6,5 +6,7 @@
 //  Copyright (c) 2011 Andrey Subbotin. All rights reserved.
 //
 
+#import "EPLAKValidatedButton.h"
+#import "EPLAKValidatedSlider.h"
 #import "EPLAKViewToolbarItem.h"
 #import "NSColor+EPLAppKit.h"

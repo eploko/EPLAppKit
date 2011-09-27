@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		720F81D0142F960700BDB7C7 /* NSColor+EPLAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 720F81CE142F960700BDB7C7 /* NSColor+EPLAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		720F81D1142F960700BDB7C7 /* NSColor+EPLAppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F81CF142F960700BDB7C7 /* NSColor+EPLAppKit.m */; };
+		720F81E414327BEE00BDB7C7 /* EPLAKValidatedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 720F81E214327BEE00BDB7C7 /* EPLAKValidatedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720F81E514327BEE00BDB7C7 /* EPLAKValidatedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F81E314327BEE00BDB7C7 /* EPLAKValidatedButton.m */; };
+		720F81E814327E2F00BDB7C7 /* EPLAKValidatedSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 720F81E614327E2E00BDB7C7 /* EPLAKValidatedSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720F81E914327E2F00BDB7C7 /* EPLAKValidatedSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F81E714327E2E00BDB7C7 /* EPLAKValidatedSlider.m */; };
 		72C65873142A80F10042A025 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C65872142A80F10042A025 /* Cocoa.framework */; };
 		72C6587D142A80F10042A025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C6587B142A80F10042A025 /* InfoPlist.strings */; };
 		72C65889142A81790042A025 /* EPLAKViewToolbarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +23,10 @@
 /* Begin PBXFileReference section */
 		720F81CE142F960700BDB7C7 /* NSColor+EPLAppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+EPLAppKit.h"; sourceTree = "<group>"; };
 		720F81CF142F960700BDB7C7 /* NSColor+EPLAppKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+EPLAppKit.m"; sourceTree = "<group>"; };
+		720F81E214327BEE00BDB7C7 /* EPLAKValidatedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLAKValidatedButton.h; sourceTree = "<group>"; };
+		720F81E314327BEE00BDB7C7 /* EPLAKValidatedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKValidatedButton.m; sourceTree = "<group>"; };
+		720F81E614327E2E00BDB7C7 /* EPLAKValidatedSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLAKValidatedSlider.h; sourceTree = "<group>"; };
+		720F81E714327E2E00BDB7C7 /* EPLAKValidatedSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKValidatedSlider.m; sourceTree = "<group>"; };
 		72C6586F142A80F10042A025 /* EPLAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPLAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C65872142A80F10042A025 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		72C65875142A80F10042A025 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -84,6 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				72C6587F142A80F10042A025 /* EPLAppKit.h */,
+				720F81E214327BEE00BDB7C7 /* EPLAKValidatedButton.h */,
+				720F81E314327BEE00BDB7C7 /* EPLAKValidatedButton.m */,
+				720F81E614327E2E00BDB7C7 /* EPLAKValidatedSlider.h */,
+				720F81E714327E2E00BDB7C7 /* EPLAKValidatedSlider.m */,
 				72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */,
 				72C65888142A81790042A025 /* EPLAKViewToolbarItem.m */,
 				720F81CE142F960700BDB7C7 /* NSColor+EPLAppKit.h */,
@@ -113,6 +125,8 @@
 				72C65889142A81790042A025 /* EPLAKViewToolbarItem.h in Headers */,
 				72C6588B142A81860042A025 /* EPLAppKit.h in Headers */,
 				720F81D0142F960700BDB7C7 /* NSColor+EPLAppKit.h in Headers */,
+				720F81E414327BEE00BDB7C7 /* EPLAKValidatedButton.h in Headers */,
+				720F81E814327E2F00BDB7C7 /* EPLAKValidatedSlider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +194,8 @@
 			files = (
 				72C6588A142A81790042A025 /* EPLAKViewToolbarItem.m in Sources */,
 				720F81D1142F960700BDB7C7 /* NSColor+EPLAppKit.m in Sources */,
+				720F81E514327BEE00BDB7C7 /* EPLAKValidatedButton.m in Sources */,
+				720F81E914327E2F00BDB7C7 /* EPLAKValidatedSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

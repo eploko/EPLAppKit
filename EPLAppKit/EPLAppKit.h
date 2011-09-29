@@ -6,6 +6,8 @@
 //  Copyright (c) 2011 Andrey Subbotin. All rights reserved.
 //
 
+#import "EPLAKTexturedSlider.h"
+#import "EPLAKTexturedSliderCell.h"
 #import "EPLAKValidatedButton.h"
 #import "EPLAKValidatedSlider.h"
 #import "EPLAKViewToolbarItem.h"

@@ -13,6 +13,17 @@
 		720F81E514327BEE00BDB7C7 /* EPLAKValidatedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F81E314327BEE00BDB7C7 /* EPLAKValidatedButton.m */; };
 		720F81E814327E2F00BDB7C7 /* EPLAKValidatedSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 720F81E614327E2E00BDB7C7 /* EPLAKValidatedSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		720F81E914327E2F00BDB7C7 /* EPLAKValidatedSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F81E714327E2E00BDB7C7 /* EPLAKValidatedSlider.m */; };
+		720F81FA1435049900BDB7C7 /* EPLAKTexturedSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 720F81F81435049900BDB7C7 /* EPLAKTexturedSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720F81FB1435049900BDB7C7 /* EPLAKTexturedSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F81F91435049900BDB7C7 /* EPLAKTexturedSlider.m */; };
+		720F81FE1435052600BDB7C7 /* EPLAKTexturedSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 720F81FC1435052500BDB7C7 /* EPLAKTexturedSliderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720F81FF1435052600BDB7C7 /* EPLAKTexturedSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F81FD1435052500BDB7C7 /* EPLAKTexturedSliderCell.m */; };
+		720F8217143509EC00BDB7C7 /* slider_back_center_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 720F8210143509EC00BDB7C7 /* slider_back_center_s1.png */; };
+		720F8218143509EC00BDB7C7 /* slider_back_left_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 720F8211143509EC00BDB7C7 /* slider_back_left_s1.png */; };
+		720F8219143509EC00BDB7C7 /* slider_back_right_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 720F8212143509EC00BDB7C7 /* slider_back_right_s1.png */; };
+		720F821A143509EC00BDB7C7 /* slider_fill_center_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 720F8213143509EC00BDB7C7 /* slider_fill_center_s1.png */; };
+		720F821B143509ED00BDB7C7 /* slider_fill_left_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 720F8214143509EC00BDB7C7 /* slider_fill_left_s1.png */; };
+		720F821C143509ED00BDB7C7 /* slider_fill_right_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 720F8215143509EC00BDB7C7 /* slider_fill_right_s1.png */; };
+		720F821D143509ED00BDB7C7 /* slider_knob_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 720F8216143509EC00BDB7C7 /* slider_knob_s1.png */; };
 		72C65873142A80F10042A025 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C65872142A80F10042A025 /* Cocoa.framework */; };
 		72C6587D142A80F10042A025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C6587B142A80F10042A025 /* InfoPlist.strings */; };
 		72C65889142A81790042A025 /* EPLAKViewToolbarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +38,17 @@
 		720F81E314327BEE00BDB7C7 /* EPLAKValidatedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKValidatedButton.m; sourceTree = "<group>"; };
 		720F81E614327E2E00BDB7C7 /* EPLAKValidatedSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLAKValidatedSlider.h; sourceTree = "<group>"; };
 		720F81E714327E2E00BDB7C7 /* EPLAKValidatedSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKValidatedSlider.m; sourceTree = "<group>"; };
+		720F81F81435049900BDB7C7 /* EPLAKTexturedSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLAKTexturedSlider.h; sourceTree = "<group>"; };
+		720F81F91435049900BDB7C7 /* EPLAKTexturedSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKTexturedSlider.m; sourceTree = "<group>"; };
+		720F81FC1435052500BDB7C7 /* EPLAKTexturedSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLAKTexturedSliderCell.h; sourceTree = "<group>"; };
+		720F81FD1435052500BDB7C7 /* EPLAKTexturedSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKTexturedSliderCell.m; sourceTree = "<group>"; };
+		720F8210143509EC00BDB7C7 /* slider_back_center_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_back_center_s1.png; sourceTree = "<group>"; };
+		720F8211143509EC00BDB7C7 /* slider_back_left_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_back_left_s1.png; sourceTree = "<group>"; };
+		720F8212143509EC00BDB7C7 /* slider_back_right_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_back_right_s1.png; sourceTree = "<group>"; };
+		720F8213143509EC00BDB7C7 /* slider_fill_center_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_fill_center_s1.png; sourceTree = "<group>"; };
+		720F8214143509EC00BDB7C7 /* slider_fill_left_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_fill_left_s1.png; sourceTree = "<group>"; };
+		720F8215143509EC00BDB7C7 /* slider_fill_right_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_fill_right_s1.png; sourceTree = "<group>"; };
+		720F8216143509EC00BDB7C7 /* slider_knob_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_knob_s1.png; sourceTree = "<group>"; };
 		72C6586F142A80F10042A025 /* EPLAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPLAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C65872142A80F10042A025 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		72C65875142A80F10042A025 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -52,10 +74,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		720F8201143508A800BDB7C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				720F8210143509EC00BDB7C7 /* slider_back_center_s1.png */,
+				720F8211143509EC00BDB7C7 /* slider_back_left_s1.png */,
+				720F8212143509EC00BDB7C7 /* slider_back_right_s1.png */,
+				720F8213143509EC00BDB7C7 /* slider_fill_center_s1.png */,
+				720F8214143509EC00BDB7C7 /* slider_fill_left_s1.png */,
+				720F8215143509EC00BDB7C7 /* slider_fill_right_s1.png */,
+				720F8216143509EC00BDB7C7 /* slider_knob_s1.png */,
+			);
+			name = Resources;
+			path = EPLAppKit/Resources;
+			sourceTree = "<group>";
+		};
 		72C65863142A80F00042A025 = {
 			isa = PBXGroup;
 			children = (
 				72C65878142A80F10042A025 /* EPLAppKit */,
+				720F8201143508A800BDB7C7 /* Resources */,
 				72C65871142A80F10042A025 /* Frameworks */,
 				72C65870142A80F10042A025 /* Products */,
 			);
@@ -92,6 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				72C6587F142A80F10042A025 /* EPLAppKit.h */,
+				720F81F81435049900BDB7C7 /* EPLAKTexturedSlider.h */,
+				720F81F91435049900BDB7C7 /* EPLAKTexturedSlider.m */,
+				720F81FC1435052500BDB7C7 /* EPLAKTexturedSliderCell.h */,
+				720F81FD1435052500BDB7C7 /* EPLAKTexturedSliderCell.m */,
 				720F81E214327BEE00BDB7C7 /* EPLAKValidatedButton.h */,
 				720F81E314327BEE00BDB7C7 /* EPLAKValidatedButton.m */,
 				720F81E614327E2E00BDB7C7 /* EPLAKValidatedSlider.h */,
@@ -127,6 +169,8 @@
 				720F81D0142F960700BDB7C7 /* NSColor+EPLAppKit.h in Headers */,
 				720F81E414327BEE00BDB7C7 /* EPLAKValidatedButton.h in Headers */,
 				720F81E814327E2F00BDB7C7 /* EPLAKValidatedSlider.h in Headers */,
+				720F81FA1435049900BDB7C7 /* EPLAKTexturedSlider.h in Headers */,
+				720F81FE1435052600BDB7C7 /* EPLAKTexturedSliderCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +226,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				72C6587D142A80F10042A025 /* InfoPlist.strings in Resources */,
+				720F8217143509EC00BDB7C7 /* slider_back_center_s1.png in Resources */,
+				720F8218143509EC00BDB7C7 /* slider_back_left_s1.png in Resources */,
+				720F8219143509EC00BDB7C7 /* slider_back_right_s1.png in Resources */,
+				720F821A143509EC00BDB7C7 /* slider_fill_center_s1.png in Resources */,
+				720F821B143509ED00BDB7C7 /* slider_fill_left_s1.png in Resources */,
+				720F821C143509ED00BDB7C7 /* slider_fill_right_s1.png in Resources */,
+				720F821D143509ED00BDB7C7 /* slider_knob_s1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +247,8 @@
 				720F81D1142F960700BDB7C7 /* NSColor+EPLAppKit.m in Sources */,
 				720F81E514327BEE00BDB7C7 /* EPLAKValidatedButton.m in Sources */,
 				720F81E914327E2F00BDB7C7 /* EPLAKValidatedSlider.m in Sources */,
+				720F81FB1435049900BDB7C7 /* EPLAKTexturedSlider.m in Sources */,
+				720F81FF1435052600BDB7C7 /* EPLAKTexturedSliderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

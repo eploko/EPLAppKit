@@ -10,9 +10,9 @@
 
 @implementation EPLAKTexturedSlider
 
-- (void)drawRect:(NSRect)aRect
+- (void)setNeedsDisplayInRect:(NSRect)invalidRect
 {
-	[[self cell] drawWithFrame:self.bounds inView:self];
+    [super setNeedsDisplayInRect:[self bounds]];
 }
 
 @end

@@ -51,22 +51,14 @@ static NSImage *sliderFillLeftImage, *sliderFillCenterImage, *sliderFillRightIma
 	
 }
 
-- (void)drawWithFrame:(NSRect)cellFrame inView:(NSView *)controlView
-{
-    [self drawBarInside:cellFrame flipped:[controlView isFlipped]];
-    [self drawKnob:cellFrame];        
-}
-
 - (void)drawBarInside:(NSRect)rect flipped:(BOOL)flipped
-{	
+{
+    CGFloat alpha = [self isEnabled] ? 1.0 : 0.5;
+
     // Track ========================
     
-	NSRect slideRect = rect;
-
-	// Inset the bar so the knob goes all the way to both ends
-    slideRect = NSInsetRect(slideRect, 0, roundf((rect.size.height - sliderBackCenterImage.size.height) / 2));
+    NSRect slideRect = NSInsetRect(rect, 0, roundf((rect.size.height - sliderBackCenterImage.size.height) / 2));
     
-    CGFloat alpha = [self isEnabled] ? 1.0 : 0.5;
     NSDrawThreePartImage(slideRect, sliderBackLeftImage, sliderBackCenterImage, sliderBackRightImage, NO, NSCompositeSourceOver, alpha, flipped);
     
     // Fill =========================
@@ -86,9 +78,9 @@ static NSImage *sliderFillLeftImage, *sliderFillCenterImage, *sliderFillRightIma
     NSDrawThreePartImage(slideRect, sliderFillLeftImage, sliderFillCenterImage, sliderFillRightImage, NO, NSCompositeSourceOver, alpha, flipped);
 }
 
-- (void)drawKnob:(NSRect)rect
+- (NSRect)knobRectFlipped:(BOOL)flipped
 {
-    double width = rect.size.width - sliderKnobImage.size.width;
+    double width = self.controlView.bounds.size.width - sliderKnobImage.size.width;
     double delta = [self doubleValue] - [self minValue];
     double range = [self maxValue] - [self minValue];
     double tick = width / range;
@@ -96,16 +88,23 @@ static NSImage *sliderFillLeftImage, *sliderFillCenterImage, *sliderFillRightIma
     
 	NSPoint drawPoint;
 	drawPoint.x = deltaInPixels;
-	drawPoint.y = roundf((rect.size.height - sliderKnobImage.size.height) / 2);
-    
+	drawPoint.y = roundf((self.controlView.bounds.size.height - sliderKnobImage.size.height) / 2);
+
+    NSRect result = NSMakeRect(drawPoint.x, drawPoint.y, sliderKnobImage.size.width, sliderKnobImage.size.height);
+    return result;
+}
+
+- (void)drawKnob:(NSRect)rect
+{
     CGFloat alpha = [self isEnabled] ? 1.0 : 0.5;
-    [sliderKnobImage drawAtPoint:drawPoint fromRect:NSMakeRect(0, 0, sliderKnobImage.size.width, sliderKnobImage.size.height) 
+    
+    [sliderKnobImage drawAtPoint:rect.origin fromRect:NSMakeRect(0, 0, sliderKnobImage.size.width, sliderKnobImage.size.height) 
                        operation:NSCompositeSourceOver fraction:alpha];
 }
 
-//- (BOOL)_usesCustomTrackImage
-//{
-//	return YES;
-//}
+- (BOOL)_usesCustomTrackImage
+{
+	return YES;
+}
 
 @end

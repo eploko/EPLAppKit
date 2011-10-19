@@ -29,6 +29,8 @@
 		72C65889142A81790042A025 /* EPLAKViewToolbarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C6588A142A81790042A025 /* EPLAKViewToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C65888142A81790042A025 /* EPLAKViewToolbarItem.m */; };
 		72C6588B142A81860042A025 /* EPLAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C6587F142A80F10042A025 /* EPLAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D681F5144F6F84003B545D /* EPLAKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D681F3144F6F84003B545D /* EPLAKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D681F6144F6F84003B545D /* EPLAKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D681F4144F6F84003B545D /* EPLAKView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		72C6587F142A80F10042A025 /* EPLAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLAppKit.h; sourceTree = "<group>"; };
 		72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLAKViewToolbarItem.h; sourceTree = "<group>"; };
 		72C65888142A81790042A025 /* EPLAKViewToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKViewToolbarItem.m; sourceTree = "<group>"; };
+		72D681F3144F6F84003B545D /* EPLAKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLAKView.h; sourceTree = "<group>"; };
+		72D681F4144F6F84003B545D /* EPLAKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLAKView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				720F81E314327BEE00BDB7C7 /* EPLAKValidatedButton.m */,
 				720F81E614327E2E00BDB7C7 /* EPLAKValidatedSlider.h */,
 				720F81E714327E2E00BDB7C7 /* EPLAKValidatedSlider.m */,
+				72D681F3144F6F84003B545D /* EPLAKView.h */,
+				72D681F4144F6F84003B545D /* EPLAKView.m */,
 				72C65887142A81790042A025 /* EPLAKViewToolbarItem.h */,
 				72C65888142A81790042A025 /* EPLAKViewToolbarItem.m */,
 				720F81CE142F960700BDB7C7 /* NSColor+EPLAppKit.h */,
@@ -171,6 +177,7 @@
 				720F81E814327E2F00BDB7C7 /* EPLAKValidatedSlider.h in Headers */,
 				720F81FA1435049900BDB7C7 /* EPLAKTexturedSlider.h in Headers */,
 				720F81FE1435052600BDB7C7 /* EPLAKTexturedSliderCell.h in Headers */,
+				72D681F5144F6F84003B545D /* EPLAKView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 				720F81E914327E2F00BDB7C7 /* EPLAKValidatedSlider.m in Sources */,
 				720F81FB1435049900BDB7C7 /* EPLAKTexturedSlider.m in Sources */,
 				720F81FF1435052600BDB7C7 /* EPLAKTexturedSliderCell.m in Sources */,
+				72D681F6144F6F84003B545D /* EPLAKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

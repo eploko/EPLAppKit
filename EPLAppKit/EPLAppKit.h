@@ -10,5 +10,6 @@
 #import "EPLAKTexturedSliderCell.h"
 #import "EPLAKValidatedButton.h"
 #import "EPLAKValidatedSlider.h"
+#import "EPLAKView.h"
 #import "EPLAKViewToolbarItem.h"
 #import "NSColor+EPLAppKit.h"

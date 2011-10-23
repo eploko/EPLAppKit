@@ -10,4 +10,6 @@
 
 @interface EPLAKTexturedSlider : EPLAKValidatedSlider
 
+@property (nonatomic, assign, getter = isWaiting) BOOL waiting;
+
 @end

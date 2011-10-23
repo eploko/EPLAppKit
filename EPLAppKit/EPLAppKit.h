@@ -13,3 +13,5 @@
 #import "EPLAKView.h"
 #import "EPLAKViewToolbarItem.h"
 #import "NSColor+EPLAppKit.h"
+#import "NSShadow+MCAdditions.h"
+#import "NSBezierPath+MCAdditions.h"

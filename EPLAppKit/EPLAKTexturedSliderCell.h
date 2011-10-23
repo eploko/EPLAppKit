@@ -10,4 +10,7 @@
 
 @interface EPLAKTexturedSliderCell : NSSliderCell
 
+@property (nonatomic, assign, getter = isWaiting) BOOL waiting;
+@property (nonatomic, assign) NSUInteger step;
+
 @end
